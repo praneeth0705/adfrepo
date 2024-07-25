@@ -1,0 +1,9 @@
+{
+	"name": "praneeadb",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "87e039d1-cea1-4269-8009-b1c493553334",
+		"tenantId": "a55e2781-3a89-4c8e-8fc9-423b684b47d4"
+	}
+}

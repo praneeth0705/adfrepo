@@ -1,0 +1,21 @@
+{
+	"name": "SqlServer2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "pranee",
+			"database": "target",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "praneeth",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0OWRlZTVkZi0wZjgxLTQwOTItYjM3ZS1hNzhlOTczMDA1MzMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhostedIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
